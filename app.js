@@ -14,7 +14,7 @@
       things = res.data;
       $('.giphyPlacement').append(function(){
         return things.map(function(a){
-          return '<div><img src=' + a.images.original.url +'></div>';
+          return '<div style="margin:10px;"><img src=' + a.images.original.url +'></div>';
         })
       });
     });
